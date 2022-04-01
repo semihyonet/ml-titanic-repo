@@ -1,5 +1,5 @@
 import React from "react"
-import {Slider, InputNumber, Row, Col} from 'antd';
+import {Slider, InputNumber} from 'antd';
 
 const IntegerStep = ({val, setChange}) => {
 

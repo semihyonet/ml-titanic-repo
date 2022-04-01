@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 import {useState} from "react";
 import Header from "./components/header";
-import Container from "./components/container";
 import IntegerStep from "./components/formInput";
 import RadioButtons from "./components/radioButtons";
 import GenderButtons from "./components/genderButtons";

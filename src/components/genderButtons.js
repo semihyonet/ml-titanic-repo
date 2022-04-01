@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Radio} from "antd";
+
 
 const GenderButtons = ({val,handleClassChange}) => {
     return(
