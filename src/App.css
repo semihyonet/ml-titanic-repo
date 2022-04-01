@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
+  @apply text-2xl;
 }
 
 .App-logo {
@@ -35,4 +39,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h1 {
+  @apply text-4xl font-bold
+}
+
+.input{
+  @apply bg-white flex flex-1 flex-col p-4 m-8 rounded-xl;
+  box-shadow: 3px -1px 44px -7px rgba(0,0,0,0.83);
+  -webkit-box-shadow: 3px -1px 44px -7px rgba(0,0,0,0.83);
+  -moz-box-shadow: 3px -1px 44px -7px rgba(0,0,0,0.83);
+}
+
+button {
+  @apply p-5 uppercase rounded-xl border-2 border-gray-500 flex-1;
 }
